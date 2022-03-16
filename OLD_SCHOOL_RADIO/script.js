@@ -17,7 +17,7 @@ let songIndex = 2;
 loadSong(songs[songIndex]);
 
 function loadSong(song) {
-  audio.src = `music/${song}.mp3`;
+  audio.src = `OLD_SCHOOL_RADIO/music/${song}.mp3`;
 }
 
 playBtn.addEventListener('click', () => {
