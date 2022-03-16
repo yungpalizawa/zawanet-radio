@@ -163,7 +163,7 @@
   .antenna {
     width: auto;
     border: solid black; 
-    margin: 0 auto -2.5625em;
+    margin: 0 auto -2.6em;
     padding-left: 9.375em;
     transform: rotate(205deg);
     transform-origin: 0%; 
