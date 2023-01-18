@@ -9,7 +9,7 @@ const audio = document.getElementById('audio');
 const songs = [
     'Free Madness',
     'African Queen',
-    'Temptation Remix'
+    'Temptation Remix',
     'Soty-Malaria'
 ];
 
