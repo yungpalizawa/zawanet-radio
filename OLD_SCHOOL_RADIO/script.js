@@ -10,6 +10,7 @@ const songs = [
     'Free Madness',
     'African Queen',
     'Temptation Remix'
+    'Soty-Malaria'
 ];
 
 let songIndex = 2;
