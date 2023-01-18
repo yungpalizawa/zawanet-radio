@@ -13,7 +13,7 @@ const songs = [
     'Soty_Malaria'
 ];
 
-let songIndex = 3;
+let songIndex = 2;
 
 loadSong(songs[songIndex]);
 
