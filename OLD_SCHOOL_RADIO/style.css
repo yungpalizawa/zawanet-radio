@@ -172,6 +172,7 @@
 
   .action-btn, .action-btn.action-btn-big {
     font-size: 50%;
+    color: black;
   }
   
   .main-radio-container {
