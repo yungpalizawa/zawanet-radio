@@ -2,6 +2,12 @@
     box-sizing: border-box;
   }
   
+@font-face {
+  font-family: technology;
+  src: url(OLD_SCHOOL_RADIO/assets/technology_fonts/Technology.ttf) format("truetype");
+} 
+
+
   body {
     background-image: linear-gradient(
       0deg,
@@ -20,11 +26,10 @@
   .header {
     display: flex;
     justify-content: center;
+    font-family: technology;
     text-align: center;
-    font-family: sans-serif;
     margin-bottom: 6.25em;
 }
-
 
 
   .music-container {
@@ -77,10 +82,25 @@
 .antenna {
     border: 0.125em solid black; 
     border-radius: 0.0625em;
-    margin: 1.25em auto -3em;
+    margin: 1.5em auto -3.01em;
     padding-left: 21.875em;
     transform: rotate(205deg);
     transform-origin: 0%; 
+}
+
+.music-info {
+  display: flex;
+  background: rgba(0, 0, 0, 0.705);
+  width: 50%;
+  justify-content: space-around;
+  
+}
+
+
+.music-info #title {
+  font-family: technology;
+  color: red;
+  text-align: center;
 }
 
 .divider {
@@ -155,18 +175,31 @@
    align-content: center;
    flex-direction: column;
    width: 75%;
-   height: 20%;
+   height: 25%;
    margin: 0 auto;
    background-color: gray;
   }
 
   .antenna {
-    width: auto;
-    border: solid black; 
-    margin: 0 auto -2.7em;
-    padding-left: 9.375em;
-    transform: rotate(205deg);
-    transform-origin: 0%; 
+    border: 0.125em solid black; 
+    margin-left: 6em;
+    padding-left: 4.375em;
+    transform: rotate(215deg);
+    transform-origin: -15%; 
+}
+
+.music-info {
+  display: flex;
+  background: rgba(0, 0, 0, 0.705);
+  width: 70%;
+  justify-content: space-around;
+  
+}
+
+
+.music-info #title {
+  color: red;
+  text-align: center;
 }
  
   .divider {

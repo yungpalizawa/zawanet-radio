@@ -3,22 +3,33 @@ const playBtn = document.getElementById('play');
 const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
 const audio = document.getElementById('audio');
+const title = document.getElementById('title');
 
 
 
 const songs = [
-    'Free Madness',
-    'African Queen',
-    'Temptation Remix',
-    'Soty_Malaria'
+  'Free Madness - Terry G',
+  'Gongo Aso - 9ice',
+  'African Queen - Tuface',
+  'Temptation Remix - P Square Ft. Alaye',
+  'Malaria - Soty',
+  'Pon Pon Pon - Da Grin',
+  'Port Harcourt 1st Son - Duncan Mighty',
+  'Weird-MC-Ijoya',
+  'Timaya - PLANTAIN BOY',
+  'Holla At Your Boy - Wizkid',
+  'Davido - Dami Duro'
+  
 ];
 
-let songIndex = 2;
+let songIndex = 0;
 
 loadSong(songs[songIndex]);
 
 function loadSong(song) {
   audio.src = `OLD_SCHOOL_RADIO/music/${song}.mp3`;
+  title.innerText = song;
+  
 }
 
 playBtn.addEventListener('click', () => {
