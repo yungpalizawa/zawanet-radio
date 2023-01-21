@@ -1,2 +1,2 @@
 # zawanet-radio
-An Old School Radio App
+An Old School Naija Radio App
