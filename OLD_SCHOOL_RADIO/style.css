@@ -4,7 +4,7 @@
   
 @font-face {
   font-family: technology;
-  src: url(../OLD_SCHOOL_RADIO/assets/technology_fonts/Technology.ttf) format("truetype");
+  src: url(Technology.ttf) format("truetype");
 }
 
   body {
