@@ -151,6 +151,11 @@
 
 @media (max-width: 768px) and (min-width: 320px){
 
+  @font-face {
+    font-family: technology;
+    src: url(OLD_SCHOOL_RADIO/assets/technology_fonts/Technology.ttf) format("truetype");
+  } 
+
   body { height: relative;
     display: flex;
     flex-direction: column;
@@ -159,6 +164,7 @@
 
   .header {
     font-size: 50%;
+    font-family: technology;
   }
   
   .navigation {
@@ -192,12 +198,14 @@
   display: flex;
   background: rgba(0, 0, 0, 0.705);
   width: 70%;
+  margin: 2em 0 2em 0;
   justify-content: space-around;
   
 }
 
 
 .music-info #title {
+  font-family: technology;
   color: red;
   text-align: center;
 }
